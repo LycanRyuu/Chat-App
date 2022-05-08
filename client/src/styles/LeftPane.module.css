@@ -1,0 +1,17 @@
+.LeftPane {
+	display: flex;
+	flex-direction: column;
+	/* gap: 1rem; */
+	height: 100%;
+	width: 40vw;
+	padding: 1rem;
+	border-right: 1px solid white;
+}
+
+.ChatList {
+	display: flex;
+	flex-direction: column;
+	/* gap: 0.5rem; */
+	height: 100%;
+	overflow: auto;
+}

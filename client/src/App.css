@@ -1,0 +1,53 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center;
+	align-items: center; */
+	background-color: #212121;
+	color: white;
+	height: 100vh;
+	font-size: calc(10px + 2vmin);
+}
+
+header {
+	height: 10vh;
+	border-bottom: 1px solid grey;
+	text-align: center;
+}
+
+input {
+	border: 1px solid grey;
+	color: white;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/* .App-link {
+	color: #61dafb;
+} */
+
+/* blackColours {
+	dark to light
+	#333333
+	#282c34
+	#212121
+	#181818
+} */
+
+/* Blue
+#4995BE */

@@ -1,0 +1,9 @@
+// Connectivity / Auth related actions
+export const LOGIN_EXISTING_USER = "LOGIN_EXISTING_USER";
+export const LOGIN_EXISTING_USER_FAIL = "LOGIN_EXISTING_USER_FAIL";
+export const LOGIN_EXISTING_USER_SUCCESS = "LOGIN_EXISTING_USER_SUCCESS";
+export const CREATE_NEW_USER = "CREATE_NEW_USER";
+
+// Chat actions
+export const SEND_MESSAGE = "SEND_MESSAGE";
+export const RECEIVE_MESSAGE = "RECEIVE_MESSAGE";

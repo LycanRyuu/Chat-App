@@ -1,0 +1,13 @@
+.ChatListItem {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	height: 45px;
+	border-bottom: 1px solid gray;
+	padding: 1.75rem 0;
+	cursor: pointer;
+}
+
+.ChatListItem:hover {
+	background-color: #333333;
+}
